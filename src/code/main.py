@@ -1,6 +1,7 @@
 import argparse 
 from banner import get_banner
 from  verfier import verify_targets
+from ntv  import handle_targets
 
 # import  shutil : shutil.get_terminal_size().columns
 
@@ -19,4 +20,6 @@ if __name__ == "__main__" :
 
 
     if args.t  : 
-        verify_targets(targets = args.t  ,  user_agent = args.user_agent) 
+        targets = verify_targets(targets = args.t  ,  user_agent = args.user_agent) 
+        handle_targets(targets = targets , user_agent = args.user_agent )
+
