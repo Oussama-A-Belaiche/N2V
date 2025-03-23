@@ -67,9 +67,6 @@ Two target execution results:
 ```bash
 python3 n2v.py -t example.com --user-agent "Mozilla/5.0"
 ```
-📌 **Execution Result:**  
-*(Insert image here)*  
-
 ---
 
 ## **Notes**  
