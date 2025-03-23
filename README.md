@@ -52,7 +52,7 @@ python3 n2v.py -t <target_domain>
 
 ### **1. Scan a Domain for Vulnerabilities**  
 ```bash
-python3 n2v.py -t example.com --vulners-api YOUR_API_KEY
+python3 n2v.py -t example.com
 ```
 📌 **Execution Result:**  
 Two target execution results:  
